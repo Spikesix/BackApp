@@ -1,6 +1,14 @@
 # BackApp
 
-Portable Windows GUI app for backing up files/folders to a destination folder using **jobs** (saved presets).
+BackApp is a portable Windows GUI app for creating quick, reliable backups of selected folders to a target location.
+
+**Highlights**
+- Backup profiles (save default settings and reuse anytime)
+- One-click backup with progress + logs
+- Optional scheduled runs / autorun support (Windows Task Scheduler)
+
+**Download**
+- Get the latest build from **Releases**: https://github.com/Spikesix/BackApp/releases
 
 ## Run (onedir package)
 
@@ -14,7 +22,7 @@ Portable Windows GUI app for backing up files/folders to a destination folder us
 - `app.ico` (loaded by the app at runtime)
 - `internal/` (or `_internal/`) (runtime files)
 
----
+
 
 ## How the app works (the flow)
 
@@ -53,6 +61,9 @@ Portable Windows GUI app for backing up files/folders to a destination folder us
 
 **Important:** Any change in the Settings tab is temporary until you press **Save Defaults**.
 
+![Settings Tab](Docs/Images/Main.PNG)
+
+
 ### B) Backup tab (run backups for this session)
 
 1. Use **Include** (checkbox) to choose which saved jobs run **right now**.
@@ -64,7 +75,10 @@ Portable Windows GUI app for backing up files/folders to a destination folder us
    - **Log** panel (detailed messages)
 4. Click **Cancel** to request stop.
 
----
+![ALT TEXT](Docs/Images/Run.PNG)
+
+
+
 
 ## Button reference (what each button does)
 
@@ -95,7 +109,7 @@ Portable Windows GUI app for backing up files/folders to a destination folder us
 - **Browse… (Destination)**
   - Prompts you to pick a destination folder, then fills the Destination cell.
 
----
+
 
 ## Archive/History (what it does)
 
@@ -105,11 +119,15 @@ When **Archive/History** is enabled for a job:
 - Keeps a hidden history index in the destination:
   - `Destination\.backup_history\...`
 
----
+![ALT TEXT](Docs/Images/Autorun.PNG)
+
+
 
 ## Autorun mode
 
 Autorun runs a backup **immediately** using your **saved defaults** (jobs that are **Enabled (default)** in the Settings tab). It’s meant for “one-click” runs without opening or reconfiguring anything.
+
+![ALT TEXT](Docs/Images/archive.PNG)
 
 
 
@@ -138,7 +156,7 @@ To change what Autorun does:
 From now on, the shortcut will use the new configuration.
 - To change Autorun behavior: edit the jobs in **Settings** → toggle **Enabled (default)** → **Save Defaults**.
 
----
+
 
 ## Files the app creates
 
