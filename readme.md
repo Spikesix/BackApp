@@ -119,7 +119,7 @@ When **Archive/History** is enabled for a job:
 - Keeps a hidden history index in the destination:
   - `Destination\.backup_history\...`
 
-![ALT TEXT](Docs/Images/Autorun.PNG)
+![Archive/History](Docs/Images/Autorun.PNG)
 
 
 
@@ -127,7 +127,7 @@ When **Archive/History** is enabled for a job:
 
 Autorun runs a backup **immediately** using your **saved defaults** (jobs that are **Enabled (default)** in the Settings tab). It’s meant for “one-click” runs without opening or reconfiguring anything.
 
-![ALT TEXT](Docs/Images/archive.PNG)
+![Autorun mode](Docs/Images/archive.PNG)
 
 
 
