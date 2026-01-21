@@ -10,6 +10,18 @@ BackApp is a portable Windows GUI app for creating quick, reliable backups of se
 **Download**
 - Get the latest build from **Releases**: https://github.com/Spikesix/BackApp/releases
 
+## Contents
+- [Run](#run-onedir-package)
+- [How the app works](#how-the-app-works-the-flow)
+  - [Settings tab](#a-settings-tab-create--save-your-default-jobs)
+  - [Backup tab](#b-backup-tab-run-backups-for-this-session)
+- [Button reference](#button-reference-what-each-button-does)
+- [Archive / History](#archivehistory-what-it-does)
+- [Autorun mode](#autorun-mode)
+- [Files the app creates](#files-the-app-creates)
+
+
+
 ## Run (onedir package)
 
 1. Download BackApp-v1.0.0-win64.zip from the Releases.
@@ -75,7 +87,7 @@ BackApp is a portable Windows GUI app for creating quick, reliable backups of se
    - **Log** panel (detailed messages)
 4. Click **Cancel** to request stop.
 
-![ALT TEXT](Docs/Images/Run.PNG)
+![Backup tab](Docs/Images/Run.PNG)
 
 
 
