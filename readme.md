@@ -6,7 +6,7 @@ Portable Windows GUI app for backing up files/folders to a destination folder us
 
 1. Download BackApp-v1.0.0-win64.zip from the Releases.
 2. Extract the ZIP.
-3. Run `BackupApp.exe`.
+3. Run `BackApp.exe`.
 
 **Keep these together in the same folder:**
 
